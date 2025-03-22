@@ -1,0 +1,35 @@
+*{
+    font-family: "Comfortaa", sans-serif;
+}
+.first-section {
+    background: url(../img/ivana-cajina-asuyh-_ZX54-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.darker-bg{
+    background: rgba(0, 0, 0, 0.404);
+    
+}
+header{
+    background: #00000000;
+    height: 10vh;
+    border-bottom: 2px solid #ffffff;
+}
+
+.element-h {
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.element-h:hover {
+    color:  #bebebe; /* Оранжевый цвет при наведении */
+    transform: translateY(-2px) translateX(2px); /* Легкое смещение вверх при наведении */
+}
+.hero-section{
+    height: 90vh;
+}
+.hero-section-div {
+    height: 60vh;
+}
