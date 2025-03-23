@@ -33,3 +33,13 @@ header{
 .hero-section-div {
     height: 60vh;
 }
+.earth { background: url('img/a1f4fbc267dbfe47fc5cc024d093d75c.jpg') no-repeat center/cover; }
+.jupiter { background: url('https://source.unsplash.com/1600x900/?jupiter') no-repeat center/cover; }
+.mars { background: url('img/dec25c9fac9030a44d3fa1df3cd14088.jpg') no-repeat center/cover; }
+.orion { background: url('img/b7e3932a5cb4c956aa7dad5f9443ece5.jpg') no-repeat center/cover; }
+.andromeda { background: url('img/38f68e7d92d87009fb378818c27ac85d.jpg') no-repeat center/cover; }
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    text-align: center;
+}
