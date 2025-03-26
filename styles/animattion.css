@@ -1,0 +1,35 @@
+.first-button-main-section {
+    padding-top: 1.2em;
+}
+.arrow-navigation span{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    
+}
+
+.arrow-navigation {
+    animation: arrow-navigation-bottom-top 1s ease-in-out alternate infinite;
+    text-decoration: none; 
+    cursor: pointer;
+    height: 40px;
+}
+.arrow-navigation span:first-child {
+    transform: rotate(45deg) translateX(-20px);
+}
+
+.arrow-navigation span:last-child {
+    transform: rotate(-45deg) translateX(20px);
+}
+
+
+@keyframes arrow-navigation-bottom-top {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(20px);
+    }
+}

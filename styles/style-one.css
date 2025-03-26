@@ -2,8 +2,8 @@
     font-family: "Comfortaa", sans-serif;
 }
 .first-section {
-    background: url(../img/ivana-cajina-asuyh-_ZX54-unsplash.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../img/ivana-cajina-asuyh-_ZX54-unsplash.jpg) no-repeat center center / cover;
+    
     height: 100vh;
 }
 .darker-bg{
