@@ -8,24 +8,26 @@
 }
 .darker-bg{
     background: rgba(0, 0, 0, 0.404);
-    
+
 }
 header{
     background: #00000000;
     height: 10vh;
     border-bottom: 2px solid #ffffff;
+    
 }
 
-.element-h {
+.element-n {
     padding: 10px 15px;
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.element-h:hover {
+.element-n:hover {
     color:  #bebebe; /* Оранжевый цвет при наведении */
-    transform: translateY(-2px) translateX(2px); /* Легкое смещение вверх при наведении */
+    transform: translateY(-2px) translateX(0px);
+    /* Легкое смещение вверх при наведении */
 }
 .hero-section{
     height: 90vh;
@@ -54,4 +56,7 @@ header{
     text-align: center;
     width: 600px;
     font-size: 20px;
+}
+.logotip {
+    cursor: default;
 }
