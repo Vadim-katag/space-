@@ -26,9 +26,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                 
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="element-n n-one" href="#">Главная</a>
@@ -37,6 +35,9 @@
                       <a class="element-n n-four" href="#">Контакты</a>
                     </div>
                   </div>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" ></span>
+                  </button>
                 </div>
               </nav>
         </header>
@@ -51,9 +52,11 @@
                 </div>
 
                 <a class="arrow-navigation" href="#gelery">
-                            <span></span>
-                            <span></span>
-                        </a>
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
 
         </div>
         
@@ -65,10 +68,12 @@
     </div>
     </section>
     <section class="section gelery" id="gelery">
+        <section class="gelery-space">
       <div class="overlay">
           <h2 class="h1">Галерея космоса</h2>
           <p>Добро пожаловать в мир невероятных красот. Здесь мы собрали удивительные объекты нашей Вселенной, которые поражают воображение своей масштабностью и загадочностью.</p>
       </div>
+    </section>
     <section class="section earth">
       <div class="overlay">
           <h2 class="h1">Земля</h2>
@@ -99,11 +104,50 @@
           <p>Галактика Андромеды — ближайшая к Млечному Пути спиральная галактика. Она находится на расстоянии около 2,5 миллионов световых лет и когда-нибудь столкнётся с нашей, создав новые причудливые звёзды.</p>
       </div>
   </section>
-
-
-
-
     </section> 
+
+    <section class="technology_section">
+    <div class="d-flex flex-column" style="background-color: #232323;">
+        <h2 class="text-center m-5 space_technology_h2">Космическая техника</h2>
+        <div class="d-flex justify-content-start align-items-center space_technology_hubble_div">
+          <div class="d-flex flex-column text-start" style="width: 50%; margin: 20px 100px 20px 100px;">
+            <h2 class="space_technology_h2">Hubble</h2>
+            <h5 class="space_technology_h5">«Хаббл» (Hubble Space Telescope, HST) — космический телескоп, автоматическая обсерватория, размещённая на орбите Земли. Это совместный проект NASA (НАСА) и Европейского космического агентства.</h5>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end align-items-center space_technology_ISS_div">
+          <div class="d-flex flex-column text-end" style="width: 50%; margin: 20px 100px 20px 100px;">
+            <h2 class="space_technology_h2">МКС</h2>
+            <h5 class="space_technology_h5">Международная космическая станция (МКС) (англ. International Space Station, сокр. ISS) — пилотируемая орбитальная станция, используемая как многоцелевой космический исследовательский комплекс.</h5>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start align-items-center space_technology_starlink_div">
+          <div class="d-flex flex-column text-start" style="width: 50%; margin: 20px 100px 20px 100px;">
+            <h2 class="space_technology_h2">Starlink</h2>
+            <h5 class="space_technology_h5">Starlink — глобальная, планетарная система искусственных спутников, разворачиваемая компанией SpaceX для обеспечения доступа к высокоскоростному спутниковому интернету в местах, где он был ненадёжным, дорогим или полностью недоступным</h5>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end align-items-center space_technology_voyager-1_div">
+          <div class="d-flex flex-column text-end" style="width: 50%; margin: 20px 100px 20px 100px;">
+            <h2 class="space_technology_h2">Voyager-1</h2>
+            <h5 class="space_technology_h5">Voyager-1 — американский космический зонд исследующий Солнечную систему с 5 сентября 1977 года. Основная миссия космической программы Voyager заключалась в исследовании Юпитера и Сатурна. «Вояджер-1» стал первым космическим зондом, который сделал детальные снимки спутников этих планет.</h5>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start align-items-center space_technology_starship_div">
+          <div class="d-flex flex-column text-start" style="width: 50%; margin: 20px 100px 20px 100px;">
+            <h2 class="space_technology_h2">Starship</h2>
+            <h5 class="space_technology_h5">Космический корабль Starship компании SpaceX и ракета Super Heavy — в совокупности называемые Starship — представляют собой полностью многоразовую транспортную систему, предназначенную для доставки экипажа и грузов на околоземную орбиту, на Луну, Марс и за их пределы.</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

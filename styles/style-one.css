@@ -35,7 +35,7 @@ header{
 .hero-section-div {
     height: 60vh;
 }
-.gelery {height: 40vh; background: url('../img/efceb7c97026d69b53186495b4bca7a6.jpg') no-repeat center/cover; }
+.gelery-space {height: 40vh; background: url('../img/efceb7c97026d69b53186495b4bca7a6.jpg') no-repeat center/cover; }
 .earth {height: 70vh; background: url('../img/a1f4fbc267dbfe47fc5cc024d093d75c.jpg') no-repeat center/cover; }
 .jupiter {height: 70vh; background: url('../img/695ad2395a13b95a9d071bee572f99bd.jpg') no-repeat center/cover; }
 .mars {height: 70vh; background: url('../img/dec25c9fac9030a44d3fa1df3cd14088.jpg') no-repeat center/cover; }
@@ -59,4 +59,99 @@ header{
 }
 .logotip {
     cursor: default;
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.technology_section{
+    color: #FFF;
+}
+/* дальше работа с фонами */
+.space_technology_hubble_div{
+    height: 350px; 
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/photo_1_2025-03-29_20-07-18.jpg);
+    background-size: cover; 
+    background-position: 50% 40%;
+}
+.space_technology_ISS_div{
+    height: 350px;
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/photo_3_2025-03-29_20-07-18.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+}
+.space_technology_starlink_div{
+    height: 350px;
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/photo_4_2025-03-29_20-07-18.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+.space_technology_voyager-1_div{
+    height: 350px;
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/photo_5_2025-03-29_20-07-18.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.space_technology_starship_div{
+    height: 350px;
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/PIl.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/* адаптация; адаптирован на все устройства */
+@media((width >= 600px) and (width < 900px)){
+    .space_technology_h2{
+        font-size: 25px;
+    }
+    .space_technology_h5{
+        font-size: 17px;
+    }
+}
+@media((width >= 500px) and (width < 600px)){
+    .space_technology_h2{
+        font-size: 20px;
+    }
+    .space_technology_h5{
+        font-size: 15px;
+    }
+}
+@media(width < 500px){
+    .space_technology_h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .space_technology_h5{
+        font-size: 12px;
+        text-align: center;
+    }
 }
