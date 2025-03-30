@@ -128,6 +128,59 @@ header{
     background-size: cover;
     background-position: 50% 50%;
 }
+.conteiner_contant{  /* Конейнер со всем соедржимым */
+
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.393);
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px;
+}
+
+.img_contact_cet{ /* Это для иконок соц.сети */
+    width: 45px;
+    height: 45px;
+}
+.conteiner_contant > div { /* ТуТ Я пытался flexbox починить*/
+    width: 45%; 
+    margin: 10px; 
+    box-sizing: border-box; 
+}
+.bg_photo_cont{/* Это задний фон */
+    border-radius: 30px;
+}
+.social-icons {
+    display: flex;
+    gap: 35px; /* Расстояние между иконками */
+}
+
+.social-icons a {
+
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+section.contact{
+    background: url(../img/ContactPhoto/Plenet.png) no-repeat center/cover;
+    padding: 100px 0;
+    
+}
+
+.social-icons a[aria-label="YouTube"]   {color: #FF0000; }
+.social-icons a[aria-label="Twitter"]   {color: #ffffff; }
+.social-icons a[aria-label="Telegram"]  {color: #0194dd; }
+.social-icons a[aria-label="Instagram"] { color: #E1306C;}
+/* Цвета при наведении для каждой соцсети */
+.social-icons a[aria-label="YouTube"]:hover {  color: #555;  }
+.social-icons a[aria-label="Twitter"]:hover {  color: #555;  } /* Twitter (X) теперь черный */
+.social-icons a[aria-label="Telegram"]:hover { color: #555;  }
+.social-icons a[aria-label="Instagram"]:hover {color: #555;   }
 /* адаптация; адаптирован на все устройства */
 @media((width >= 600px) and (width < 900px)){
     .space_technology_h2{

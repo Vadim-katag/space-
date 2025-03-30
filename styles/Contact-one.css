@@ -1,0 +1,38 @@
+body{
+    background: url(../img/ContactPhoto/капецземля.png) no-repeat center;
+    /* background: url(../img/ContactPhoto/plan_ex.png) no-repeat center; */
+    /* background-image: url(../img/ContactPhoto/Омг\,\ земля.png) no-repeat center; */
+    /* background-image: url(../img/ContactPhoto/земляcont.png) no-repeat center; */
+    /* background-image: url(../img/ContactPhoto/капецземля.png) no-repeat center; */
+    background-size: cover;
+    height: 100vh;
+}
+.conteiner_contant{  /* Конейнер со всем соедржимым */
+
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.393);
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px;
+}
+
+.img_contact_cet{ /* Это для иконок соц.сети */
+    width: 45px;
+    height: 45px;
+}
+.conteiner_contant > div { /* ТуТ Я пытался flexbox починить*/
+    width: 45%; 
+    margin: 10px; 
+    box-sizing: border-box; 
+}
+.bg_photo_cont{/* Это задний фон */
+    background-image: url(../img/ContactPhoto/туманность_con_пол.png);
+    border-radius: 30px;
+}
