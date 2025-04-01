@@ -182,6 +182,84 @@ section.contact{
 .social-icons a[aria-label="Telegram"]:hover { color: #555;  }
 .social-icons a[aria-label="Instagram"]:hover {color: #555;   }
 /* адаптация; адаптирован на все устройства */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 40vh;
+}
+.main-footer {
+    width: 80vw;
+}
+.about-footer {
+    height: 30vh;
+}
+.about-footer h2{
+    width: 6.8rem;
+}
+.about-footer p{
+    width: 32rem;
+}
+.about-footer nav ul{
+    padding: 0;
+    gap: 35px;
+}
+.about-footer nav ul li{
+    list-style: none;
+}
+.about-footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.about-footer nav ul li a:hover{
+    color: #a5a5a5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media((width >= 600px) and (width < 900px)){
     .space_technology_h2{
         font-size: 25px;
