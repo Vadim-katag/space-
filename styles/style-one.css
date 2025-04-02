@@ -218,6 +218,31 @@ footer {
 
 }
 
+.news-section {
+    background-color: #333;
+    color: #fff;
+    height: 74vh;
+}
+.lastnews {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.news-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-align: left;
+    margin-top: 20px;
+}
+.news-descr {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ddd;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
 
 
 

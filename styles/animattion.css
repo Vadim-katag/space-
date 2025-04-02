@@ -54,11 +54,6 @@
     animation: header-logo 0.5s ease ;
 }
 
-
-
-
-
-
 @keyframes header-navigation {
     0% {
         opacity: 0;
